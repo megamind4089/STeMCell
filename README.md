@@ -3,6 +3,17 @@
 
 ### Current version:
 
+#### v0.0.2
+
+<p align="center">
+  <img alt="Front" src="images/v0.0.2_front.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Back" src="images/v0.0.2_back.png" width="45%">
+</p>
+
+
+### Previous versions:
+
 #### v0.0.1
 
 <p align="center">
@@ -12,5 +23,5 @@
 </p>
 
 > ** Warning:**
-> Current version is not tested yet.
+> Current version might be not tested yet.
 
