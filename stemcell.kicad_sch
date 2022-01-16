@@ -6,8 +6,8 @@
 
   (title_block
     (title "STeMCell")
-    (date "2021-12-26")
-    (rev "0.0.2")
+    (date "2022-01-16")
+    (rev "0.1.0")
   )
 
   (lib_symbols
@@ -3266,7 +3266,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 266.954 137.541 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5e4a462a-cd9e-453d-8ddc-65f701dafe84)
-    (property "Reference" "JP4" (id 0) (at 266.954 130.81 0))
+    (property "Reference" "JP2" (id 0) (at 266.954 130.81 0))
     (property "Value" "RX0" (id 1) (at 266.954 133.35 0))
     (property "Footprint" "stemcell:SOLDER_JUMPER_3" (id 2) (at 266.954 137.541 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3336,7 +3336,7 @@
   (symbol (lib_id "MCU_ST_STM32F4:STM32F411CCUx") (at 58.42 74.422 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 722636b6-8ff0-452f-9357-23deb317d921)
-    (property "Reference" "U2" (id 0) (at 65.5194 33.02 0)
+    (property "Reference" "U1" (id 0) (at 65.5194 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32F401CCUx" (id 1) (at 65.5194 35.56 0)
@@ -3440,8 +3440,8 @@
   (symbol (lib_id "Regulator_Linear:XC6220B331MR") (at 51.054 163.322 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 86e29d56-af4c-40fe-8fb4-6d774d3564c0)
-    (property "Reference" "U1" (id 0) (at 51.054 152.527 0))
-    (property "Value" "XC6220B331MR" (id 1) (at 51.054 155.067 0))
+    (property "Reference" "U2" (id 0) (at 51.054 152.4 0))
+    (property "Value" "XC6220B331MR" (id 1) (at 51.054 154.94 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 51.054 163.322 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3595,9 +3595,9 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 266.573 155.067 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid ad93f2ec-4e50-43bd-9256-b09b41c0ee99)
-    (property "Reference" "JP3" (id 0) (at 266.573 148.336 0))
+    (property "Reference" "JP4" (id 0) (at 266.573 148.336 0))
     (property "Value" "SCL" (id 1) (at 266.573 150.876 0))
     (property "Footprint" "stemcell:SOLDER_JUMPER_3" (id 2) (at 266.573 155.067 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3748,8 +3748,8 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 246.507 154.432 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e1ed2867-9986-47bf-b812-c7fb4588f3c6)
-    (property "Reference" "JP2" (id 0) (at 246.507 147.701 0))
-    (property "Value" "SDA" (id 1) (at 246.507 150.241 0))
+    (property "Reference" "JP3" (id 0) (at 246.507 148.59 0))
+    (property "Value" "SDA" (id 1) (at 246.507 151.13 0))
     (property "Footprint" "stemcell:SOLDER_JUMPER_3" (id 2) (at 246.507 154.432 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3946,14 +3946,14 @@
     (path "/3b6d7996-cb03-421c-89b7-14690c1f4b89"
       (reference "JP1") (unit 1) (value "TX0") (footprint "stemcell:SOLDER_JUMPER_3")
     )
+    (path "/5e4a462a-cd9e-453d-8ddc-65f701dafe84"
+      (reference "JP2") (unit 1) (value "RX0") (footprint "stemcell:SOLDER_JUMPER_3")
+    )
     (path "/e1ed2867-9986-47bf-b812-c7fb4588f3c6"
-      (reference "JP2") (unit 1) (value "SDA") (footprint "stemcell:SOLDER_JUMPER_3")
+      (reference "JP3") (unit 1) (value "SDA") (footprint "stemcell:SOLDER_JUMPER_3")
     )
     (path "/ad93f2ec-4e50-43bd-9256-b09b41c0ee99"
-      (reference "JP3") (unit 1) (value "SCL") (footprint "stemcell:SOLDER_JUMPER_3")
-    )
-    (path "/5e4a462a-cd9e-453d-8ddc-65f701dafe84"
-      (reference "JP4") (unit 1) (value "RX0") (footprint "stemcell:SOLDER_JUMPER_3")
+      (reference "JP4") (unit 1) (value "SCL") (footprint "stemcell:SOLDER_JUMPER_3")
     )
     (path "/3ea877fb-953b-40c9-b4b5-173d54e07972"
       (reference "JP5") (unit 1) (value "Boot0") (footprint "stemcell:SOLDER_JUMPER_3")
@@ -3985,11 +3985,11 @@
     (path "/3cb6dc63-fe54-4d2a-a9a1-c6dfa5292d35"
       (reference "R8") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/86e29d56-af4c-40fe-8fb4-6d774d3564c0"
-      (reference "U1") (unit 1) (value "XC6220B331MR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
-    )
     (path "/722636b6-8ff0-452f-9357-23deb317d921"
-      (reference "U2") (unit 1) (value "STM32F401CCUx") (footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm")
+      (reference "U1") (unit 1) (value "STM32F401CCUx") (footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm")
+    )
+    (path "/86e29d56-af4c-40fe-8fb4-6d774d3564c0"
+      (reference "U2") (unit 1) (value "XC6220B331MR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/222a5679-2d53-4fe3-b8b3-4646d1e38626"
       (reference "Y1") (unit 1) (value "HSE1 8Mhz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")

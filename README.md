@@ -1,9 +1,44 @@
 # STeMCell
  STM32 breakout in promicro footprint
 
-### Current version:
 
-#### v0.0.2
+## Features:
+
+* Pro micro footprint
+* STM32F4x1 series MCU
+* Support swapping TX/RX pins
+* Jumper to enable/disable USB DFU bootloader
+* Inbuilt TX pullup for UART half duplex communication
+* Extra 5 pinout on bottom
+* Supports QMK and ZMK
+
+
+> WARNING:
+> This design does not have any usb protection or reverse voltage protection.
+
+## v0.1.0
+
+<p align="center">
+  <img alt="Front" src="images/v0.1.0_front.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Back" src="images/v0.1.0_back.png" width="45%">
+</p>
+
+
+#### Order it here:
+
+https://oshpark.com/shared_projects/mxZDklGM
+
+
+## Testing:
+
+Tested I2C OLED, Split communication, and all pinouts
+
+
+## Previous versions:
+
+
+### v0.0.2
 
 <p align="center">
   <img alt="Front" src="images/v0.0.2_front.png" width="45%">
@@ -12,9 +47,7 @@
 </p>
 
 
-### Previous versions:
-
-#### v0.0.1
+### v0.0.1
 
 <p align="center">
   <img alt="Front" src="images/v0.0.1_front.png" width="45%">
@@ -23,5 +56,5 @@
 </p>
 
 > ** Warning:**
-> Current version might be not tested yet.
+> Current version might be not tested yet
 
