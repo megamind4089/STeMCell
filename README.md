@@ -25,6 +25,14 @@
   <img alt="Back" src="images/v0.1.0_back.png" width="45%">
 </p>
 
+## In Real Life
+
+<p align="center">
+  <img alt="irl1" src="images/v0.0.2_irl1.jpg" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="irl2" src="images/v0.0.2_irl2.jpg" width="45%">
+</p>
+
 
 #### Order it here:
 
