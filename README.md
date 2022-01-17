@@ -9,6 +9,7 @@
 * Support swapping TX/RX pins
 * Jumper to enable/disable USB DFU bootloader
 * Inbuilt TX pullup for UART half duplex communication
+* User LED
 * Extra 5 pinout on bottom
 * Supports QMK and ZMK
 
@@ -27,12 +28,18 @@
 
 #### Order it here:
 
-https://oshpark.com/shared_projects/mxZDklGM
+https://oshpark.com/shared_projects/LJiMLzWF
 
 
-## Testing:
+## Working:
 
-Tested I2C OLED, Split communication, and all pinouts
+* Voltage regulator
+* User LED
+* All pinouts
+* I2C - with OLED
+* UART - Split communication
+* Flipped UART pins
+* VUSB sense (pending)
 
 
 ## Previous versions:
