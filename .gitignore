@@ -24,3 +24,4 @@ _autosave-*
 *.xml
 *.csv
 stemcell-backups/*
+jlcpcb/
