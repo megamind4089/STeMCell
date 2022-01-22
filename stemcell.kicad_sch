@@ -2937,10 +2937,10 @@
   (symbol (lib_id "Device:C_Small") (at 207.2132 145.4658 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 17a536b5-2542-4e84-a68c-468c07dce3c3)
-    (property "Reference" "C12" (id 0) (at 210.3882 144.202 0)
+    (property "Reference" "C12" (id 0) (at 209.55 144.202 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1u" (id 1) (at 210.3882 146.742 0)
+    (property "Value" "100n" (id 1) (at 209.55 146.742 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 207.2132 145.4658 0)
@@ -3779,7 +3779,7 @@
     (in_bom yes) (on_board yes)
     (uuid ee45be93-fd9f-4d18-97ee-e75a85927397)
     (property "Reference" "JP5" (id 0) (at 204.9272 104.2416 90))
-    (property "Value" "TX PullUp" (id 1) (at 205.0796 111.4552 0))
+    (property "Value" "TX PUp" (id 1) (at 205.0796 111.4552 0))
     (property "Footprint" "stemcell:SOLDER_JUMPER_3" (id 2) (at 201.6252 110.4392 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3924,7 +3924,7 @@
       (reference "C11") (unit 1) (value "20p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/17a536b5-2542-4e84-a68c-468c07dce3c3"
-      (reference "C12") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C12") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/db06f48f-7fea-48bd-9adf-052a32fe684e"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0402_1005Metric")
@@ -3954,7 +3954,7 @@
       (reference "JP4") (unit 1) (value "SCL") (footprint "stemcell:SOLDER_JUMPER_3")
     )
     (path "/ee45be93-fd9f-4d18-97ee-e75a85927397"
-      (reference "JP5") (unit 1) (value "TX PullUp") (footprint "stemcell:SOLDER_JUMPER_3")
+      (reference "JP5") (unit 1) (value "TX PUp") (footprint "stemcell:SOLDER_JUMPER_3")
     )
     (path "/4796f5ae-8a2b-4cb3-bf9f-2e004cd5cb45"
       (reference "R1") (unit 1) (value "220") (footprint "Resistor_SMD:R_0402_1005Metric")
