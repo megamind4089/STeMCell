@@ -3699,7 +3699,7 @@
     (property "Value" "LED" (id 1) (at 255.3716 57.5436 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_SMD:LED_0402_1005Metric" (id 2) (at 252.0696 54.6862 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 252.0696 54.6862 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 252.0696 54.6862 0)
@@ -3927,7 +3927,7 @@
       (reference "C12") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/db06f48f-7fea-48bd-9adf-052a32fe684e"
-      (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0402_1005Metric")
+      (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/a4788c8d-5773-43fe-9711-99f01fa6cfd8"
       (reference "J1") (unit 1) (value "USB C Connector") (footprint "stemcell:USB-C-C168688")
