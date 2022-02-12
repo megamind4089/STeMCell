@@ -7,8 +7,8 @@
   (paper "A5")
   (title_block
     (title "STeMCell")
-    (date "2022-01-22")
-    (rev "1.0.0.rc1")
+    (date "2022-02-12")
+    (rev "1.0.0")
   )
 
   (layers
@@ -2827,7 +2827,7 @@
   (gr_line (start 104.6734 54.9241) (end 104.6734 49.2125) (layer "Edge.Cuts") (width 0.15) (tstamp d67f893e-d62b-44c0-a1ed-06c27930b246))
   (gr_line (start 108.9914 79.8195) (end 108.9914 50.4825) (layer "Edge.Cuts") (width 0.15) (tstamp de044b0e-b1ea-4e31-a233-e607dfa30726))
   (gr_line (start 104.6734 49.2125) (end 107.7214 49.2125) (layer "Edge.Cuts") (width 0.15) (tstamp ea318c4c-2aac-4b16-8f77-376b163fde73))
-  (gr_text "STeMCell\nv1.0.0.rc1" (at 100.1776 76.5556) (layer "B.SilkS") (tstamp 08599c5d-18df-4076-8d95-9afe2b0b7202)
+  (gr_text "STeMCell\nv1.0.0" (at 100.1776 76.5556) (layer "B.SilkS") (tstamp 08599c5d-18df-4076-8d95-9afe2b0b7202)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "B4" (at 93.5228 72.8726) (layer "B.SilkS") (tstamp 0cb39ff9-da60-486f-9241-8fc3d06f450d)
