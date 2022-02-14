@@ -3137,7 +3137,7 @@
     (property "Value" "Left" (id 1) (at 195.961 67.5386 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "stemcell:Pins12" (id 2) (at 198.501 45.9486 0)
+    (property "Footprint" "stemcell:Pins12_castellated" (id 2) (at 198.501 45.9486 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 198.501 45.9486 0)
@@ -3213,7 +3213,7 @@
     (uuid 41715acf-7b81-4792-bfde-7e1c2a5ef40d)
     (property "Reference" "J4" (id 0) (at 205.6638 70.358 90))
     (property "Value" "Down" (id 1) (at 205.6638 72.263 90))
-    (property "Footprint" "stemcell:Pins5" (id 2) (at 205.6384 75.6158 0)
+    (property "Footprint" "stemcell:Pins5_castellated" (id 2) (at 205.6384 75.6158 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 205.6384 75.6158 0)
@@ -3682,7 +3682,7 @@
     (property "Value" "Right" (id 1) (at 213.741 67.5386 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "stemcell:Pins12" (id 2) (at 211.201 45.9486 0)
+    (property "Footprint" "stemcell:Pins12_castellated" (id 2) (at 211.201 45.9486 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 211.201 45.9486 0)
@@ -4110,13 +4110,13 @@
       (reference "J1") (unit 1) (value "USB C Connector") (footprint "stemcell:USB-C-C168688")
     )
     (path "/30cde441-a4b4-4a86-92b5-1140e5d06e66"
-      (reference "J2") (unit 1) (value "Left") (footprint "stemcell:Pins12")
+      (reference "J2") (unit 1) (value "Left") (footprint "stemcell:Pins12_castellated")
     )
     (path "/9d72ddaf-d37c-44f1-b2cb-b3c798045fcb"
-      (reference "J3") (unit 1) (value "Right") (footprint "stemcell:Pins12")
+      (reference "J3") (unit 1) (value "Right") (footprint "stemcell:Pins12_castellated")
     )
     (path "/41715acf-7b81-4792-bfde-7e1c2a5ef40d"
-      (reference "J4") (unit 1) (value "Down") (footprint "stemcell:Pins5")
+      (reference "J4") (unit 1) (value "Down") (footprint "stemcell:Pins5_castellated")
     )
     (path "/3b6d7996-cb03-421c-89b7-14690c1f4b89"
       (reference "JP1") (unit 1) (value "TX0") (footprint "stemcell:SOLDER_JUMPER_3")
