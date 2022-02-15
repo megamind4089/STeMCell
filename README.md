@@ -6,6 +6,7 @@
 
 * Pro micro footprint
 * STM32F4x1 series MCU
+* 2 layers
 * Support half duplex USART communication in any of D0, D1, D2, D3 using jumpers
 * Onboard switch to enable/disable USB DFU bootloader
 * Inbuilt TX pullup for UART half duplex communication
