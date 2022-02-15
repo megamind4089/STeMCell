@@ -1,4 +1,4 @@
-19815554535922712
+19771964316032301
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84483,11 +84483,25 @@ Pins5
 5
 5
 stemcell
+Pins5_castellated
+
+
+0
+5
+5
+stemcell
 Pins12
 
 
 0
 12
+12
+stemcell
+Pins12_castellated
+
+
+0
+24
 12
 stemcell
 SOLDER_JUMPER_2
