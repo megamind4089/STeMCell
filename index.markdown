@@ -6,17 +6,16 @@ nav_order: 1
 ---
 
 # STeMCell
+CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+{: .label}
 
-STeMCell is an open source [Pro Micro](https://www.sparkfun.com/products/12640) / [Elite C](https://deskthority.net/wiki/Elite-C) replacement using STM32F4 chips, tailored specifically for mechanical keyboards.
 
-A lot of ergonomic mechanical keyboards designed during the past years, have been created with promicro
-as the controller. The never ending features of the keyboard firmware demands more power and memory
-than ATmega32U4 can provide. STeMCell attempts to bridge the gap by providing same pinout as that of
-Pro Micro and using STM32F4 chips with memory.
+STeMCell is an open source [Pro Micro](https://www.sparkfun.com/products/12640) / [Elite C](https://deskthority.net/wiki/Elite-C) replacement using STM32F4 chips, tailored for mechanical keyboards.
+
+Most split ergonomic mechanical keyboards designed on recent days, uses Pro Micro as the controller. But the never ending features of keyboard firmware, demands more power and memory
+than Pro Micro can provide. STeMCell attempts to bridge the gap, by using STM32F4 chip with memory and hacing same pinout as that of Pro Micro.
 
 STeMCell cannot be considered as a full replacement for Pro Micro, since the later can run in 5V mode also.
-
-Current tested revision is v1.0.0
 
 
 ## Features:
@@ -32,8 +31,9 @@ Current tested revision is v1.0.0
 * Supports QMK and ZMK
 * JLCPCB assembly supported
 
+
 warning
 {: .label .label-yellow }
-Current revision v1.0.0 does not contain fuse, esd protection or reverse current protection.
-There is an untested revision v1.0.1 and v1.0.2, which adds fuse and reverse current protection
+Current  tested revision is v1.0.0 and it does not contain fuse, esd protection or reverse current protection.
+There are two untested versions v1.0.1 and v1.0.2, with fuse and reverse current protection.
 
