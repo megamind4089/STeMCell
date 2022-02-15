@@ -18,11 +18,7 @@
 
 ## v1.0.2
 
-<p align="center">
-  <img alt="Front" src="images/v1.0.0_front.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Back" src="images/v1.0.0_back.png" width="45%">
-</p>
+TODO Picture
 
 ## In Real Life
 
