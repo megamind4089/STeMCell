@@ -25,3 +25,4 @@ _autosave-*
 *.csv
 stemcell-backups/*
 jlcpcb/
+gerbers/
