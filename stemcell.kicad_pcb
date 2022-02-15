@@ -2102,7 +2102,7 @@
   (gr_text "A7" (at 106.1 76.83 270) (layer "B.SilkS") (tstamp 0ea296d6-5875-4618-860c-bfe68796f5b4)
     (effects (font (size 0.7 0.7) (thickness 0.08)) (justify mirror))
   )
-  (gr_text "@megamind4089" (at 100.0611 72.6151) (layer "B.SilkS") (tstamp 23071a88-3221-421f-b45c-abc71304d5b4)
+  (gr_text "@megamind4089" (at 100.0611 70.9) (layer "B.SilkS") (tstamp 23071a88-3221-421f-b45c-abc71304d5b4)
     (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
   )
   (gr_text "VDD" (at 106.1 59.05 270) (layer "B.SilkS") (tstamp 236eb5d3-1a80-4626-bf3d-45645c8c1c5e)
