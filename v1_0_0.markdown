@@ -1,0 +1,28 @@
+---
+layout: default
+title: v1.0.0
+has_children: false
+parent: Revisions
+nav_order: 1
+---
+
+# PCB design:
+
+![Front](/static/images/v1_0_0/front.png){: width="50%" }
+![Back](/static/images/v1_0_0/back.png){: width="50%" }
+{: .d-flex .flex-justify-around}
+
+## Working:
+
+* Voltage regulator
+* User LED
+* All pinouts
+* I2C - with OLED
+* UART - Split communication
+* UART Half duplex on D0, D1, D2, D3
+* VUSB sense
+
+## Untested features:
+
+* RGB
+
