@@ -6,8 +6,8 @@
 
   (title_block
     (title "STeMCell")
-    (date "2022-02-12")
-    (rev "1.0.0")
+    (date "2022-08-08")
+    (rev "2.0.0")
   )
 
   (lib_symbols

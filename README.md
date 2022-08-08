@@ -16,8 +16,7 @@
 * JLCPCB assembly supported
 
 
-## v1.0.2
-Untested version.
+## v2.0.0
 
 <p align="center">
   <img alt="front" src="images/front.png" width="45%">
