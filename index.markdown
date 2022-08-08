@@ -26,14 +26,10 @@ STeMCell cannot be considered as a full replacement for Pro Micro, since the lat
 * Inbuilt TX pullup for UART half duplex communication
 * Onboard switch to boot into USB DFU bootloader
 * User LED on PA8
-* 1A max current output
 * Extra 5 pinout on bottom like Elite C
 * Supports QMK and ZMK
 * JLCPCB assembly supported
-
-
-warning
-{: .label .label-yellow }
-Current  tested revision is v1.0.0 and it does not contain fuse, esd protection or reverse current protection.
-There are two untested versions v1.0.1 and v1.0.2, with fuse and reverse current protection.
+* Reverse current protection
+* 1A max current output
+* 1A fuse
 

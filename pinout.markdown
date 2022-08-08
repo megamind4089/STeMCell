@@ -8,7 +8,7 @@ nav_order: 5
 
 # Pinout
 
-| Arduino | Pro Micro | STeMCell v1.0.0 | STeMCell v1.0.1 |
+| Arduino | Pro Micro | STeMCell v1.0.0 | STeMCell v2.0.0 |
 |---------|-----------|-----------------|-----------------|
 | 1       | D3        | A2              | A2              |
 | 0       | D2        | A3              | A3              |
@@ -33,4 +33,4 @@ nav_order: 5
 
 
 #### Note:
-Pins A5 and A7 has been swapped in v1.0.1 for SPI pins compatibility
+Pins A5 and A7 has been swapped in v1.0.1, v2.0.0 for SPI pins compatibility

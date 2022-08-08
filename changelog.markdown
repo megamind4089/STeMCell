@@ -7,6 +7,9 @@ nav_order: 3
 
 # Changelog
 
+## v2.0.0
+* Same as v1.0.2 except silkscreen change
+
 ## v1.0.2
 * Used castellated pins
 * Removed copyrighted logo

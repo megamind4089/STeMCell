@@ -1,15 +1,15 @@
 ---
 layout: default
-title: v1.0.0
+title: v2.0.0
 has_children: false
 parent: Revisions
-nav_order: 1
+nav_order: 2
 ---
 
 # PCB design:
 
-![Front](/static/images/v1_0_0/front.png){: width="50%" }
-![Back](/static/images/v1_0_0/back.png){: width="50%" }
+![Front](/static/images/v2_0_0/front.png){: width="50%" }
+![Back](/static/images/v2_0_0/back.png){: width="50%" }
 {: .d-flex .flex-justify-around}
 
 ## Working:
