@@ -1,13 +1,18 @@
-(module pins5 (layer F.Cu) (tedit 5A296A75)
-  (fp_text reference REF** (at 0 -2.54) (layer F.SilkS) hide
+(footprint "Pins5" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5A296A75)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -2.54) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ddcf9a83-0126-4df6-88fa-3363d508d3a6)
   )
-  (fp_text value Pins5 (at 0 -5.08) (layer F.Fab) hide
+  (fp_text value "Pins5" (at 0 -5.08) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 782b86fa-ef9f-4c16-a991-b44a80f0f0c3)
   )
-  (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (pad 3 thru_hole circle (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (pad 4 thru_hole circle (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (pad 5 thru_hole circle (at 0 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (pad "1" thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 3fc3a397-ec3a-4314-aa6a-44925ef4cbbe))
+  (pad "2" thru_hole circle (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 1fbda89d-82ba-4f0a-b113-988f269883dc))
+  (pad "3" thru_hole circle (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 90dda447-2750-402e-9a9e-df264b0c0bc9))
+  (pad "4" thru_hole circle (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 27b5a6bb-bf08-4e16-abae-290afd548f36))
+  (pad "5" thru_hole circle (at 0 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 961e37cd-505c-40aa-baef-0a680d665d8f))
 )
