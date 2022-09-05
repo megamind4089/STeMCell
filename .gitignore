@@ -26,3 +26,4 @@ _autosave-*
 stemcell-backups/*
 jlcpcb/
 gerbers/
+.DS_Store
