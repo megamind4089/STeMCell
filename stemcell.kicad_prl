@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer": 31,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [
       "/SCL",
@@ -10,6 +10,7 @@
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
+      "images": 0.6,
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
@@ -21,7 +22,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -35,18 +36,14 @@
       2,
       3,
       4,
-      5,
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
       15,
       16,
-      17,
-      18,
       19,
       20,
       21,
@@ -65,14 +62,39 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "000000c_00000000",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "stemcell.kicad_prl",
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "stemcell.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 640,
+          "pos_y": 371,
+          "size_x": 1280,
+          "size_y": 720
+        }
+      },
+      {
+        "name": "stemcell.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 640,
+          "pos_y": 371,
+          "size_x": 1280,
+          "size_y": 720
+        }
+      }
+    ]
   }
 }
