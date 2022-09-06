@@ -21,10 +21,10 @@ Github: [tinyuf2](https://github.com/megamind4089/tinyuf2)
 
 [Bootloader](https://github.com/megamind4089/STeMCell/blob/main/bootloader/tinyuf2-stemcell.bin?raw=true){: .btn .btn-green }
 
-New STeMCell boards will only have STM32 inbuilt DFU bootloader.
+Freshly assmebled STeMCell boards will only have STM32 inbuilt DFU bootloader.
 
 Steps to upload TinyUF2 bootloader:
-  1. Download bootloader from above link
+  1. Download bootloader bin file from above link
   1. Connect STeMCell to USB, while holding the Boot0 button
   1. PC/Mac will detect STM32 inbuilt DFU booloader.
   1. Upload the tinyUF2 bootloader using the following command:
@@ -40,37 +40,21 @@ To erase the entire flash, use this command
 dfu-util -a 0 -i 0 -s 0x08000000:mass-erase:force
 ```
 
+Note:
+```bash
+
+If there is some trouble getting into bootloader, try connecting the pin B2 to ground and follow the above steps.
+Pin B2 is Boot1 pin which has to be pull down, to start DFU boot. But B2 pin is break out in STeMCell.
+So far, at least one person has faced issues without this pull down on B2.
+```
+
 
 ## QMK Firmware:
 
-The following PR adds support for compiling QMK firmware with STeMCell controller.
+QMK supports STeMCell v2.0.0 and above. To setup, please follow qmk docs below:
 
-PR: [16287](https://github.com/qmk/qmk_firmware/pull/16287)
+[QMK Converters](https://docs.qmk.fm/#/feature_converters?id=stemcell)
 
-Until the PR is merged, fork can be used for compilation.
-
-Github: [qmk_firmware](https://github.com/megamind4089/qmk_firmware)
-
-The PR defines the following makefile flags (similar to ProtonC).
-
-- STMC - Enable compilation for STeMCell controller
-- STMC_IS - Swap I2C pins
-- STMC_US - Swap UART pins
-
-For example, to compile lily58, use
-```bash
-make lily58:via STMC=yes STMC_US=yes
-```
-
-For A.Dux keyboard, use
-```bash
-make a_dux:via:dfu-util-split-right STMC=yes STMC_US=yes
-```
-
-Use dfu-util-split-right/dfu-til-split-left to generate firmware with handedness saved in EEPROM.
-After compilation, make waits for dfu device to upload firmware. Since STeMCell uses tinyuf2, we can stop the make command and copy the uf2 firmware.
-
-Changes are expected in this process, once qmk dev reviews the PR
 
 ## ZMK Firmware:
 
