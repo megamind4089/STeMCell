@@ -45,17 +45,18 @@
 
   (setup
     (stackup
-      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.SilkS" (type "Top Silk Screen") (color "White") (material "Direct Printing"))
       (layer "F.Paste" (type "Top Solder Paste"))
-      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Mask" (type "Top Solder Mask") (color "Blue") (thickness 0.01) (material "Dry Film") (epsilon_r 3.3) (loss_tangent 0))
       (layer "F.Cu" (type "copper") (thickness 0.035))
       (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "B.Cu" (type "copper") (thickness 0.035))
-      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "Blue") (thickness 0.01) (material "Dry Film") (epsilon_r 3.3) (loss_tangent 0))
       (layer "B.Paste" (type "Bottom Solder Paste"))
-      (layer "B.SilkS" (type "Bottom Silk Screen"))
-      (copper_finish "HAL SnPb")
+      (layer "B.SilkS" (type "Bottom Silk Screen") (color "White") (material "Direct Printing"))
+      (copper_finish "ENIG")
       (dielectric_constraints no)
+      (castellated_pads yes)
     )
     (pad_to_mask_clearance 0)
     (pcbplotparams
@@ -207,10 +208,10 @@
       (net 2 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 96ee9b8e-4543-4639-b9ea-44b8baaaf94e))
     (pad "S1" thru_hole oval locked (at -5.575 2.1) (size 1 2.2) (drill oval 0.6 1.8) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp bab3431c-ede6-417b-8033-763748a11a9f))
-    (model "${KIPRJMOD}/pronrfmicro.pretty/3D/USB-C-C168688.step"
+    (model "${KIPRJMOD}/lib/stemcell.pretty/_3D/USB-C-C168688-reworked.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 -180))
     )
   )
 
@@ -1405,8 +1406,8 @@
       (net 24 "/BOOT0") (pinfunction "A") (pintype "passive") (tstamp c7524402-4dbd-4d05-888d-edab7e79a150))
     (pad "2" smd rect locked (at 1.625 0 90) (size 0.55 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "VDD") (pinfunction "B") (pintype "passive") (tstamp fed6a1e7-e233-4dff-87e0-8992a65c8dd0))
-    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_CK_KXT3.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/lib/stemcell.pretty/_3D/EVPAWBD40-reworked.step"
+      (offset (xyz 0 -0.255 0.25))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2211,7 +2212,7 @@
   (gr_text "C14" (at 102.2 78.025) (layer "B.SilkS") (tstamp 076ec102-1264-42f9-b892-abc9c2acc57a)
     (effects (font (size 0.7 0.7) (thickness 0.08)) (justify mirror))
   )
-  (gr_text "v2.0.0" (at 97.2 76.575) (layer "B.SilkS") (tstamp 08599c5d-18df-4076-8d95-9afe2b0b7202)
+  (gr_text "v2.1.0" (at 97.2 76.575) (layer "B.SilkS") (tstamp 08599c5d-18df-4076-8d95-9afe2b0b7202)
     (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
   )
   (gr_text "A7" (at 106.1 76.83 270) (layer "B.SilkS") (tstamp 0ea296d6-5875-4618-860c-bfe68796f5b4)
