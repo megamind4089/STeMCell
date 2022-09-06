@@ -21,7 +21,7 @@ Github: [tinyuf2](https://github.com/megamind4089/tinyuf2)
 
 [Bootloader](https://github.com/megamind4089/STeMCell/blob/main/bootloader/tinyuf2-stemcell.bin?raw=true){: .btn .btn-green }
 
-Freshly assmebled STeMCell boards will only have STM32 inbuilt DFU bootloader.
+Freshly assembled STeMCell boards will only have STM32 inbuilt DFU bootloader.
 
 Steps to upload TinyUF2 bootloader:
   1. Download bootloader bin file from above link
@@ -40,12 +40,15 @@ To erase the entire flash, use this command
 dfu-util -a 0 -i 0 -s 0x08000000:mass-erase:force
 ```
 
-Note:
+Troubleshooting:
 ```bash
+If there is some trouble getting into bootloader, try connecting
+the pin B2 to ground and follow the above steps again.
 
-If there is some trouble getting into bootloader, try connecting the pin B2 to ground and follow the above steps.
-Pin B2 is Boot1 pin which has to be pull down, to start DFU boot. But B2 pin is break out in STeMCell.
-So far, at least one person has faced issues without this pull down on B2.
+Reason:
+Pin B2 is Boot1 pin which has to be pull down, to start DFU bootloader.
+But B2 pin is break out in STeMCell and is thus floating, which may cause this.
+So far, at least one person has faced this issue, without this pull down on B2.
 ```
 
 
